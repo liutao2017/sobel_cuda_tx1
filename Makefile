@@ -11,7 +11,7 @@ LIBS=-largus -lopencv_core -lopencv_highgui -lnvbuf_utils -lm
 
 OBJS=
 
-NVCC_OPTIONS=-arch=sm_53 -ccbin=g++ -std=c++11
+NVCC_OPTIONS=-arch=sm_53 -ccbin=aarch64-linux-gnu-g++ -std=c++11
 
 all: main
 
